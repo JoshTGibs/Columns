@@ -1,0 +1,18 @@
+.rows {
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    background-color: cadetblue;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
